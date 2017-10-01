@@ -1,0 +1,143 @@
+.content {
+  background-color: #fafafa;
+}
+.banner {
+  width: 100%;
+  padding-bottom: 0.26666rem;
+  background-color: #fafafa;
+}
+.banner img {
+  width: 100%;
+  display: block;
+}
+.main {
+  font-size: 0.29333rem;
+  padding: 0 0.42666rem;
+}
+.main .logo {
+  height: 1.76rem;
+  display: flex;
+  align-items: center;
+}
+.main .logo img {
+  width: 1.41333rem;
+  height: 0.53333rem;
+}
+.main p {
+  font-size: 0.26666rem;
+  color: #636363;
+  margin-bottom: 0.32rem;
+}
+.table {
+  margin: 0.45333rem 0.42666rem;
+}
+.table .table-content {
+  margin-bottom: 0.4rem;
+}
+.table .tab-ul {
+  margin-top: 0.42666rem;
+  display: flex;
+  justify-content: space-around;
+}
+.table .tab-ul .circle-li {
+  position: relative;
+}
+.table .tab-ul .circle {
+  position: absolute;
+  width: 0.18666rem;
+  height: 0.18666rem;
+  border-radius: 50%;
+  background-color: #38602f;
+  left: -0.28rem;
+  bottom: 0.3rem;
+  z-index: 1;
+}
+.table .tab-ul .line0 {
+  width: 1px;
+  height: 3.7rem;
+  background-color: #cdd7cb;
+  position: absolute;
+  bottom: 0.3rem;
+  left: -0.2rem;
+}
+.table .tab-ul .line1 {
+  width: 1px;
+  height: 3.9rem;
+  background-color: #cdd7cb;
+  position: absolute;
+  bottom: 0.25rem;
+  left: -0.2rem;
+}
+.table .tab-ul .line2 {
+  width: 1px;
+  height: 3.9rem;
+  background-color: #cdd7cb;
+  position: absolute;
+  bottom: 0.25rem;
+  left: -0.2rem;
+  left: -0.05rem;
+}
+.table .tab-ul .line3 {
+  width: 1px;
+  height: 2.4rem;
+  background-color: #cdd7cb;
+  position: absolute;
+  bottom: 0.28666rem;
+}
+.table .tab-ul .lineX {
+  width: 1px;
+  height: 2.4rem;
+  background-color: #b6b6b6;
+  position: absolute;
+  bottom: 1rem;
+  left: 0.5rem;
+  transform: rotate(10deg);
+}
+.table .tab-ul .join1 {
+  position: absolute;
+  top: 0.96rem;
+  left: -0.1rem;
+}
+.table .tab-ul .join2 {
+  position: absolute;
+  top: 0.96rem;
+  left: -0.1rem;
+  top: 1.8rem;
+}
+.table .tab-ul ul {
+  display: flex;
+  justify-content: space-around;
+  flex-direction: column;
+  font-size: 0.26666rem;
+  color: #3e6127;
+  position: relative;
+}
+.table .tab-ul ul li {
+  flex: 1;
+  width: 100%;
+  height: 0.66666rem;
+  line-height: 0.8rem;
+  text-align: center;
+}
+.table .tab-ul ul li:nth-child(1) {
+  color: #3e6127;
+  font-size: 0.29333rem;
+  font-weight: bold;
+  height: 1.2rem;
+}
+.table .tab-ul ul:nth-child(1) li {
+  text-align: left;
+  font-weight: bold;
+  justify-content: flex-start;
+}
+.rule {
+  padding: 0 0.42666rem 0.8rem;
+  font-size: 0.24rem;
+  color: #636363;
+}
+.rule p {
+  margin-top: 0.26666rem;
+}
+.rule span {
+  font-weight: bold;
+}

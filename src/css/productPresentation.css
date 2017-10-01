@@ -1,0 +1,113 @@
+.content {
+  background-color: #fafafa;
+}
+.banner {
+  width: 100%;
+  padding-bottom: 0.26666rem;
+  background-color: #fafafa;
+}
+.banner img {
+  width: 100%;
+  display: block;
+}
+.main {
+  padding-left: 0.32rem;
+  background-color: #fff;
+}
+.main h1 {
+  height: 1.38666rem;
+  line-height: 1.38666rem;
+  font-size: 0.37333rem;
+  color: #3c6227;
+}
+.main p {
+  font-size: 0.32rem;
+  color: #555454;
+}
+.main .logo {
+  height: 1.06666rem;
+}
+.main .logo img {
+  margin: 0 auto;
+  width: 1.41333rem;
+  height: 0.53333rem;
+}
+.tab {
+  margin-top: 0.26666rem;
+}
+.tab ul {
+  height: 1.04rem;
+  display: flex;
+  justify-content: space-around;
+  align-items: center;
+  border-bottom: 2px solid #ced8c9;
+}
+.tab ul li {
+  height: 1.04rem;
+  line-height: 1.04rem;
+  flex: 1;
+  text-align: center;
+}
+.tab ul li a {
+  display: inline-block;
+  font-size: 0.37333rem;
+  color: #858585;
+}
+.tab ul li a.active {
+  color: #3c6227;
+  border-bottom: 2px solid #3c6227;
+}
+.tab .tab-content {
+  padding: 0.64rem 0.32rem;
+  background-color: #fff;
+}
+.tab .tab-content .tab-content-have {
+  border: 2px solid #3C6227;
+  border-radius: 0.16rem;
+  padding: 0.32rem 0.37333rem 0.42666rem;
+  position: relative;
+  font-size: 0.29333rem;
+}
+.tab .tab-content .tab-content-have .left img {
+  width: 2.61333rem;
+  height: 3.90666rem;
+  vertical-align: middle;
+}
+.tab .tab-content .tab-content-have .left img.jfyl-img {
+  width: 4.09333rem;
+  height: 2.90666rem;
+}
+.tab .tab-content .tab-content-have .left3 {
+  width: 3.28rem;
+}
+.tab .tab-content .tab-content-have .left3 h1 {
+  margin-bottom: 0.42666rem;
+  color: #3d6328;
+  font-weight: bold;
+}
+.tab .tab-content .tab-content-have .right h1 {
+  margin-bottom: 0.42666rem;
+}
+.tab .tab-content .tab-content-have .right p {
+  width: 4.93333rem;
+  font-size: 0.32rem;
+  color: #555454;
+}
+.tab .tab-content .tab-content-have .right2 p {
+  width: 4.45333rem;
+}
+.tab .tab-content .tab-content-have .right3 h1 {
+  margin-bottom: 0.42666rem;
+  color: #3d6328;
+  font-weight: bold;
+}
+.tab .tab-content .tab-content-have .logo-gray {
+  position: absolute;
+  bottom: 0.1rem;
+  right: 2.21333rem;
+  width: 1.41333rem;
+  height: 0.53333rem;
+}
+.tab .tab-content .tab-content-have2 {
+  padding: 0.93333rem 0.13333rem 0.42666rem;
+}

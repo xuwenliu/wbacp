@@ -1,0 +1,101 @@
+.content{
+    background-color: #fafafa;
+}
+.banner{
+    width: 100%;
+    padding-bottom: 0.26666rem;
+    background-color: #fafafa;
+    img{
+        width: 100%;
+        display: block;
+    }
+    
+}
+.tab{
+    margin-top: 0.26666rem;
+    .tab-ul{
+        height: 1.04rem;
+        display: flex;
+        justify-content: space-around;
+        align-items: center;
+        border-bottom: 2px solid #ced8c9;
+        li{
+            height: 1.04rem;
+            line-height: 1.04rem;
+            flex: 1;
+            text-align: center;
+            a{
+                display: inline-block;
+                font-size: 0.37333rem;
+                color: #858585;
+            }
+            a.active{
+                color: #3c6227;
+                border-bottom: 2px solid #3c6227;
+            }
+        }
+    }
+}
+.tab-content{
+    padding:0.32rem;
+    p{
+        margin-top: 0.32rem;
+        font-size: 0.29333rem;
+    }
+    .tab-table{
+        margin-top: 0.2rem;
+        border: 2px solid #3C6227;
+        border-radius: 0.16rem;
+        display: flex;
+        justify-content: space-around;
+        font-size: 0.24rem;
+        text-align: center;
+        ul{
+            position: relative;
+            color: rgb(62,97,39);
+            li{
+                height: 0.66666rem;
+            }
+            li:nth-child(1){
+                height: 0.85333rem;
+                line-height: 0.85333rem;
+             
+                color: rgb(62,97,39);
+                font-size: 0.29333rem;
+                font-weight: bold;
+              
+            
+            }
+            .circle-li{
+                position: relative;
+            }
+            .circle{
+                position: absolute;
+                width: 0.18666rem;
+                height: 0.18666rem;
+                border-radius: 50%;
+                background-color: #38602f;
+                left: -0.28rem;
+                bottom: 0.45rem;
+                z-index: 1;
+            }
+            .line0{
+                position: absolute;
+                width: 1px;
+                height: 4rem;
+                background-color: #cdd7cb;
+                bottom: 0.45rem;
+                left: -0.2rem;
+            }
+            .line1{
+                .line0;
+                height: 4.2rem;
+            }
+        }
+         ul:nth-child(1){
+            li{
+                font-weight: bold;
+            }
+        }
+    }
+}

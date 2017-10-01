@@ -1,0 +1,186 @@
+@charset "utf-8";
+html {
+    color:#000;
+    background:#fff;
+    overflow-y:scroll;
+    -webkit-text-size-adjust:100%;
+    -ms-text-size-adjust:100%;
+}
+html * {
+	box-sizing: border-box;
+	-webkit-box-sizing: border-box;
+    outline:0;
+    -webkit-text-size-adjust:none;
+    -webkit-tap-highlight-color:rgba(0,0,0,0);//去掉点击链接和文本框对象时默认的灰色半透明覆盖层(iOS)或者虚框(Android)
+}
+html,body {
+    font-family:"微软雅黑", "Helvetica Neue", Helvetica, STHeiTi, Arial, sans-serif;
+}
+body,div,dl,dt,dd,ul,ol,li,h1,h2,h3,h4,h5,h6,pre,code,form,fieldset,legend,input,textarea,p,blockquote,th,td,hr,button,article,aside,details,figcaption,figure,footer,header,hgroup,menu,nav,section {
+    margin:0;
+    padding:0;
+}
+input,button,select,textarea{
+    border: none;
+    outline: none;
+    /*清除移动端的默认表单样式*/
+    appearance: none;
+    -webkit-appearance: none;
+}
+
+fieldset,img {
+    border:0;
+}
+address,caption,cite,code,dfn,em,th,var {
+    font-style:normal;
+    font-weight:500;
+}
+ol li,ul li{
+    list-style:none;
+}
+*:not(input, select, textarea) {-webkit-user-select: none;}/*禁止选中文本内容*/
+caption,th {text-align:left;}
+h1,h2,h3,h4,h5,h6 {
+    font-size:100%;
+    font-weight:500;
+}
+img,a{-webkit-touch-callout:none;}/*禁用长按页面时的弹出菜单(iOS下有效)*/
+a {text-decoration:none;}
+i,em{ font-style: normal}
+img{display: block;vertical-align: middle;}
+
+/*clear*/
+.clearfix {zoom:1;}
+.clearfix::after,
+.clearfix::before{
+	content:"";
+	display:block;
+	clear: both;
+	visibility: hidden;
+	height:0;
+}
+.clear{clear:both;}
+
+/*font-family*/
+.font-st{font-family:\5b8b\4f53;} /*宋体*/
+.font-yh{font-family:\5FAE\8F6F\96C5\9ED1;}/*雅黑*/
+
+.fl{float:left;}
+.fr{float:right;}
+/*cursor*/
+.cursor{cursor:pointer}
+.no-cursor{cursor:none}
+
+/*font-type*/
+.cut-txt{word-break: break-all; word-wrap: break-word; border:none;}/*自动换行*/
+.no-cut-txt{white-space:nowrap;}/*强制不换行*/
+.en-cut-txt{word-break:break-all;}/*英文换行*/
+.textcut{ text-overflow:ellipsis; overflow:hidden;white-space:nowrap;}/*一行超出用...*/
+.textcut-2{/*必须给元素设置固定宽度才起作用*/
+  overflow: hidden;
+  text-overflow:ellipsis;
+  display:-webkit-box;
+  -webkit-box-orient:vertical;
+  -webkit-line-clamp:2;
+}
+.textcut-3{/*必须给元素设置固定宽度才起作用*/
+  overflow: hidden;
+  text-overflow:ellipsis;
+  display:-webkit-box;
+  -webkit-box-orient:vertical;
+  -webkit-line-clamp:3;
+}
+/*border-line*/
+.bb1{border-bottom: 1px solid #ddd;}
+.bt1{border-top:1px solid #ddd}
+.mgtop110{
+	margin-top: 1.46666rem;
+}
+
+/*页面布局css*/
+html,body,.content{
+    height: 100%;
+}
+body{
+    display: flex;
+    flex-direction:column;
+}
+header,footer{
+	width: 100%;
+    height: 1.06666rem;
+    line-height: 1.06666rem;
+    text-align: center;
+}
+header{
+	display: flex;
+	justify-content: space-around;
+	border-bottom: 1px solid #e6e6e6;
+}
+header a:nth-child(1),header a:nth-child(3){
+	flex: 1;
+	display: flex;
+    justify-content: center;
+    align-items: center;
+}
+header a:nth-child(1) img{
+	width: 1.41333rem;
+	height: 0.53333rem;
+	display: block;
+	
+}
+header a:nth-child(1) img.back{
+	width: 0.28rem;
+	height: 0.49333rem;
+	display: block;
+	margin-left: -1rem;
+}
+header a:nth-child(3) img{
+	width: 0.49333rem;
+	height: 0.4rem;
+	display: block;
+	
+}
+header a:nth-child(2){
+	flex: 3;
+	font-size: 0.56rem;
+	color:rgb(62,97,39);
+    font-weight: bold;
+}
+
+footer{
+	border-top: 1px solid #e6e6e6;
+}
+.content{
+    flex:1;
+    overflow-y: auto;
+}  
+/*头部菜单栏样式*/
+.menu-shade{
+	display: none;
+	position: fixed;
+	top: 1.06666rem;
+	left: 0;
+	right: 0;
+	bottom:0;
+	z-index: 999;
+	background-color: rgba(0,0,0,0.3);
+}
+.menu {
+	display: flex;
+	justify-content: space-around;
+	align-items: center;
+	background-color: #f4f4f4;
+	height: 2.4rem;
+}
+.menu a {
+	font-size: 0.37333rem;
+    color:rgb(62,97,39);
+    font-weight: bold;
+}
+.menu a img{
+	width: 1.08rem;
+	height: 1.08rem;
+	display: block;
+	margin: 0 auto;
+	margin-bottom: 0.26666rem;
+}
